@@ -1,0 +1,29 @@
+.title{
+    text-align: center;
+}
+.customers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4%;
+}
+.profile{
+    padding: 0 2% 5% 2%;
+    flex: 1 0 20%;
+    text-align: center;
+}
+.profilepic{
+    width: 100%;
+}
+.name{
+     text-transform: uppercase;
+     font-weight: bold;
+     border-bottom: 1px solid black;
+}
+.address{
+    /*line-height: 1.5px;   sometimes because the state is not two letters, this jacks up the formatting of it*/
+    text-transform: capitalize;
+}
+.email{
+    margin: 15px 0 30px;
+}
