@@ -66,5 +66,6 @@ function insertAddress(features, parent){
 function insertPhone(features, parent){
   var data = document.createElement('p');
   data.textContent = features['phone'];
+  data.classList = 'phone';
   parent.appendChild(data);
 }

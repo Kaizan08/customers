@@ -8,9 +8,11 @@
     margin: 4%;
 }
 .profile{
+    display: flex;
     padding: 0 2% 5% 2%;
     flex: 1 0 20%;
-    text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 .profilepic{
     width: 100%;
@@ -23,7 +25,11 @@
 .address{
     /*line-height: 1.5px;   sometimes because the state is not two letters, this jacks up the formatting of it*/
     text-transform: capitalize;
+    margin: 0;
 }
 .email{
-    margin: 15px 0 30px;
+    margin: 15px 0 30px 0;
+}
+.phone{
+    margin: 0;
 }
