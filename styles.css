@@ -20,16 +20,19 @@
 .name{
      text-transform: uppercase;
      font-weight: bold;
-     border-bottom: 1px solid black;
+     border-bottom: 1px solid #6ABC95;
 }
 .address{
     /*line-height: 1.5px;   sometimes because the state is not two letters, this jacks up the formatting of it*/
     text-transform: capitalize;
     margin: 0;
+    color: #9D9D9D;
 }
 .email{
     margin: 15px 0 30px 0;
+    color: #D4D4D4;
 }
 .phone{
     margin: 0;
+    color: #9D9D9D;
 }
